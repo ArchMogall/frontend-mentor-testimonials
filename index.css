@@ -48,7 +48,7 @@ body {
   font-size: var(--fs-400);
   color: hsl(var(--clr-neutral-dark));
   line-height: 1.5;
-  background-color: hsl(var(--clr-grey-light));
+  background-color: hsl(var(--clr-neutral-light));
   padding-block: 4rem;
 }
 
