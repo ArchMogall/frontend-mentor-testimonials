@@ -54,7 +54,8 @@ body {
 
 @media (min-width: 65em) {
   body {
-    padding-block: 8rem;
+    display: grid;
+    place-content: center;
   }
 }
   
@@ -198,7 +199,6 @@ img {
   max-width: 35rem;
   padding-inline: 2rem;
   margin-inline: auto;
-  place-content: center;
   gap: 1.5rem;
 }
 
