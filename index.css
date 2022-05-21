@@ -50,6 +50,7 @@ body {
   line-height: 1.5;
   background-color: hsl(var(--clr-neutral-light));
   padding-block: 4rem;
+  min-height: 100vh;
 }
 
 @media (min-width: 65em) {
@@ -177,6 +178,12 @@ img {
 .bg-white {
   --text-clr: hsl(var(--clr-grey-dark));
   --bg-clr: hsl(var(--clr-white));
+}
+
+@media (min-width: 65em) {
+  .bg-white {
+    box-shadow: 15px 15px 25px hsl(var(--clr-grey-dark), .35);
+  }
 }
 
 .bg-neutral-dark {
